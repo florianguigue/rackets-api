@@ -1,0 +1,6 @@
+@Rackets_HostAddress = http://localhost:5202
+
+GET {{Rackets_HostAddress}}/swagger
+Accept: application/json
+
+###
