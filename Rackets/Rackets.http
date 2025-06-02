@@ -1,6 +1,11 @@
 @Rackets_HostAddress = http://localhost:5202
 
-GET {{Rackets_HostAddress}}/swagger
+### Get all rackets
+
+GET {{Rackets_HostAddress}}/Rackets
 Accept: application/json
 
-###
+### OpenAPI
+
+GET {{Rackets_HostAddress}}/scalar/v1
+Accept: application/json

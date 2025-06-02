@@ -5,4 +5,6 @@ namespace Rackets.Domain;
 public interface IRacketsRepository
 {
     List<Racket> GetRackets();
+    
+    Racket? GetRacket(int id);
 }
