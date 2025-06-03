@@ -12,6 +12,11 @@ public class Racket
     [JsonConverter(typeof(WeightCategoryConverter))]
     public WeightCategory WeightCategory { get; init; }
 
+    public Racket()
+    {
+        // Used for YAML deserialization process
+    }
+    
     public Racket(string name, Brand brand, Flex flex, Balance balance, WeightCategory weightCategory)
     {
         Name = name;

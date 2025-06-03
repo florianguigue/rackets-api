@@ -1,5 +1,6 @@
 using System.Text.Json.Serialization;
 using Rackets.Domain;
+using Rackets.Extensions;
 using Rackets.Infrastructure;
 using Scalar.AspNetCore;
 
@@ -12,6 +13,9 @@ builder.Services.AddControllers()
         options.JsonSerializerOptions.Converters.Add(new JsonStringEnumConverter());
     });
 builder.Services.AddScoped<IRacketsRepository, RacketsRepository>();
+
+var rackets = YamlConfigLoader.Load();
+builder.Services.AddSingleton(rackets);
 
 // Learn more about configuring OpenAPI at https://aka.ms/aspnet/openapi
 builder.Services.AddOpenApi();
