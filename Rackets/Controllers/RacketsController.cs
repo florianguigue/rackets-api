@@ -22,7 +22,7 @@ public class RacketsController(ILogger<RacketsController> logger, IRacketsReposi
     [HttpGet("/{id}")]
     [ProducesResponseType<Racket>(StatusCodes.Status200OK, "application/json")]
     [ProducesResponseType(StatusCodes.Status404NotFound)]
-    public Results<Ok<Racket>, NotFound<ProblemDetails>> Get(int id)
+    public Results<Ok<Racket>, NotFound<ProblemDetails>> Get(string id)
     {
         var result = racketsRepository.GetRacket(id);
         return result != null ? TypedResults.Ok(result) : TypedResults.NotFound((ProblemDetails) this.NotFoundProblem("Racket not found").Value!);

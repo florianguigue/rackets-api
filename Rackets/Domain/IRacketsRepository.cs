@@ -6,5 +6,5 @@ public interface IRacketsRepository
 {
     List<Racket> GetRackets();
     
-    Racket? GetRacket(int id);
+    Racket? GetRacket(string name);
 }

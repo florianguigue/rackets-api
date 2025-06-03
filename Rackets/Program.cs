@@ -1,14 +1,9 @@
 using System.Text.Json.Serialization;
-using Microsoft.AspNetCore.OpenApi;
-using Microsoft.EntityFrameworkCore;
-using Microsoft.OpenApi.Models;
 using Rackets.Domain;
 using Rackets.Infrastructure;
 using Scalar.AspNetCore;
 
 var builder = WebApplication.CreateBuilder(args);
-
-builder.Services.AddDbContext<AppDbContext>(options => options.UseSqlite("Data Source=app.db"));
 
 // Add services to the container.
 builder.Services.AddControllers()
