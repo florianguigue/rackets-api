@@ -12,10 +12,10 @@ public class RacketsController(ILogger<RacketsController> logger, IRacketsReposi
 {
     [HttpGet]
     [ProducesResponseType<List<Racket>>(StatusCodes.Status200OK, "application/json")]
-    public Task<List<Racket>> GetAllRackets()
+    public ActionResult<List<Racket>> GetAllRackets()
     {
         logger.LogInformation("Retrieving all Rackets");
-        return Task.FromResult(racketsRepository.GetRackets());
+        return Ok(racketsRepository.GetRackets());
     }
 
     [HttpGet("{name}")]
@@ -26,5 +26,14 @@ public class RacketsController(ILogger<RacketsController> logger, IRacketsReposi
         logger.LogInformation("Retrieving Racket {Name}", name);
         var result = racketsRepository.GetRacket(name);
         return result != null ? Ok(result) : NotFound((ProblemDetails) this.NotFoundProblem($"Racket {name} not found").Value!);
+    }
+
+    [HttpGet("search")]
+    [ProducesResponseType<List<Racket>>(StatusCodes.Status200OK, "application/json")]
+    public ActionResult<List<Racket>> SearchRackets(Brand? brand, Flex? flex, Balance? balance, WeightCategory? weightCategory)
+    {
+        logger.LogInformation("Searching Rackets with parameters [Brand: {}, Flex: {}, Balance: {}, Weight category: {}]",
+            brand, flex, balance, weightCategory);
+        return Ok(racketsRepository.SearchRackets(brand, flex, balance, weightCategory));
     }
 }
