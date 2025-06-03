@@ -1,4 +1,3 @@
-using Microsoft.AspNetCore.Http.HttpResults;
 using Microsoft.AspNetCore.Mvc;
 using Rackets.Domain;
 using Rackets.Domain.Model;
@@ -13,18 +12,19 @@ public class RacketsController(ILogger<RacketsController> logger, IRacketsReposi
 {
     [HttpGet]
     [ProducesResponseType<List<Racket>>(StatusCodes.Status200OK, "application/json")]
-    public Task<List<Racket>> Get()
+    public Task<List<Racket>> GetAllRackets()
     {
         logger.LogInformation("Retrieving all Rackets");
         return Task.FromResult(racketsRepository.GetRackets());
     }
 
-    [HttpGet("/{id}")]
+    [HttpGet("{name}")]
     [ProducesResponseType<Racket>(StatusCodes.Status200OK, "application/json")]
     [ProducesResponseType(StatusCodes.Status404NotFound)]
-    public Results<Ok<Racket>, NotFound<ProblemDetails>> Get(string id)
+    public ActionResult<Racket> GetRacketByName(string name)
     {
-        var result = racketsRepository.GetRacket(id);
-        return result != null ? TypedResults.Ok(result) : TypedResults.NotFound((ProblemDetails) this.NotFoundProblem("Racket not found").Value!);
+        logger.LogInformation("Retrieving Racket {Name}", name);
+        var result = racketsRepository.GetRacket(name);
+        return result != null ? Ok(result) : NotFound((ProblemDetails) this.NotFoundProblem($"Racket {name} not found").Value!);
     }
 }

@@ -12,6 +12,6 @@ public class RacketsRepository(List<Racket> rackets) : IRacketsRepository
 
     public Racket? GetRacket(string name)
     {
-        return null;
+        return rackets.FirstOrDefault(r => string.Equals(r.Name, name, StringComparison.OrdinalIgnoreCase));
     }
 }
