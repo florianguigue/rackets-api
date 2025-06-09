@@ -30,7 +30,7 @@ public class RacketsController(ILogger<RacketsController> logger, IRacketsReposi
 
     [HttpGet("search")]
     [ProducesResponseType<List<Racket>>(StatusCodes.Status200OK, "application/json")]
-    public ActionResult<List<Racket>> SearchRackets(Brand? brand, Flex? flex, Balance? balance, WeightCategory? weightCategory)
+    public ActionResult<List<Racket>> SearchRackets(string? brand, Flex? flex, Balance? balance, WeightCategory? weightCategory)
     {
         logger.LogInformation("Searching Rackets with parameters [Brand: {}, Flex: {}, Balance: {}, Weight category: {}]",
             brand, flex, balance, weightCategory);

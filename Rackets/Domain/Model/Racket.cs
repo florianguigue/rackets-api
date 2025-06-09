@@ -6,7 +6,7 @@ namespace Rackets.Domain.Model;
 public class Racket
 {
     public string Name { get; init; }
-    public Brand Brand { get; init; }
+    public string Brand { get; init; }
     public Flex Flex { get; init; }
     public Balance Balance { get; init; }
     [JsonConverter(typeof(WeightCategoryConverter))]
@@ -17,7 +17,7 @@ public class Racket
         // Used for YAML deserialization process
     }
     
-    public Racket(string name, Brand brand, Flex flex, Balance balance, WeightCategory weightCategory)
+    public Racket(string name, string brand, Flex flex, Balance balance, WeightCategory weightCategory)
     {
         Name = name;
         Brand = brand;

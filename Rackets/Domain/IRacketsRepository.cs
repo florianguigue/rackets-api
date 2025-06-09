@@ -9,5 +9,5 @@ public interface IRacketsRepository
     Racket? GetRacket(string name);
     
     
-    List<Racket> SearchRackets(Brand? brand, Flex? flex, Balance? balance, WeightCategory? weightCategory);
+    List<Racket> SearchRackets(string? brand, Flex? flex, Balance? balance, WeightCategory? weightCategory);
 }

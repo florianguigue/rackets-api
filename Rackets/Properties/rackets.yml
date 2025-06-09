@@ -1,10 +1,1055 @@
-- name: "Babolat X-Feel Origin Lite"
-  brand: "Babolat"
-  flex: "Flexible"
-  balance: "Neutral"
-  weightCategory: "Four"
-- name: "Yonex ArcSaber 7 Tour"
-  brand: "Yonex"
-  flex: "Medium"
-  balance: "Neutral"
-  weightCategory: "Four"
+- brand: Li-ning
+  name: 3D Calibar 001c
+  flex: Medium
+  balance: HeadHeavy
+  weightCategory: Three
+- brand: Li-ning
+  name: 3D Calibar 300
+  flex: Flexible
+  balance: HeadHeavy
+  weightCategory: Four
+- brand: Li-ning
+  name: 3D Calibar 300b
+  flex: Medium
+  balance: HeadHeavy
+  weightCategory: Four
+- brand: Li-ning
+  name: 3D Calibar 300c
+  flex: Medium
+  balance: HeadHeavy
+  weightCategory: Three
+- brand: Li-ning
+  name: 3D Calibar 600
+  flex: Medium
+  balance: HeadHeavy
+  weightCategory: Four
+- brand: Li-ning
+  name: 3D Calibar 600b
+  flex: Flexible
+  balance: HeadHeavy
+  weightCategory: Three
+- brand: Li-ning
+  name: 3D Calibar 600c
+  flex: Medium
+  balance: HeadHeavy
+  weightCategory: Three
+- brand: Li-ning
+  name: 3D Calibar 600i
+  flex: Flexible
+  balance: HeadHeavy
+  weightCategory: Five
+- brand: Li-ning
+  name: 3D Calibar 900
+  flex: Stiff
+  balance: HeadHeavy
+  weightCategory: Four
+- brand: Li-ning
+  name: 3D Calibar 900b
+  flex: Medium
+  balance: HeadHeavy
+  weightCategory: Three
+- brand: Li-ning
+  name: A 700
+  flex: Flexible
+  balance: HeadHeavy
+  weightCategory: Three
+- brand: Forza
+  name: Aero power 572
+  flex: Medium
+  balance: Neutral
+  weightCategory: Three
+- brand: Li-ning
+  name: Aeronaut 6000
+  flex: Flexible
+  balance: HeadHeavy
+  weightCategory: Three
+- brand: Li-ning
+  name: Aeronaut 6000c
+  flex: Medium
+  balance: HeadHeavy
+  weightCategory: Three
+- brand: Li-ning
+  name: Aeronaut 6000d
+  flex: Medium
+  balance: HeadHeavy
+  weightCategory: Three
+- brand: Li-ning
+  name: Aeronaut 6000i
+  flex: Medium
+  balance: HeadHeavy
+  weightCategory: Five
+- brand: Li-ning
+  name: Aeronaut 7000i
+  flex: Medium
+  balance: HeadHeavy
+  weightCategory: Five
+- brand: Li-ning
+  name: Aeronaut 9000c
+  flex: Medium
+  balance: HeadHeavy
+  weightCategory: Three
+- brand: Li-ning
+  name: Aeronaut 9000d
+  flex: Stiff
+  balance: HeadHeavy
+  weightCategory: Four
+- brand: Li-ning
+  name: Aeronaut 9000i
+  flex: Flexible
+  balance: HeadHeavy
+  weightCategory: Five
+- brand: Victor
+  name: AL-2200
+  flex: Stiff
+  balance: HeadHeavy
+  weightCategory: Two
+- brand: Yonex
+  name: Arcsaber 11 play
+  flex: Medium
+  balance: Neutral
+  weightCategory: Four
+- brand: Yonex
+  name: Arcsaber 11 pro (Three-G4)
+  flex: Stiff
+  balance: Neutral
+  weightCategory: Three
+- brand: Yonex
+  name: Arcsaber 11 pro (Four-G5)
+  flex: Stiff
+  balance: Neutral
+  weightCategory: Four
+- brand: Yonex
+  name: Arcsaber 2 Feel
+  flex: Flexible
+  balance: Neutral
+  weightCategory: Four
+- brand: Yonex
+  name: Arcsaber 7 play
+  flex: Flexible
+  balance: Neutral
+  weightCategory: Four
+- brand: Yonex
+  name: Arcsaber 7 pro
+  flex: Medium
+  balance: Neutral
+  weightCategory: Four
+- brand: Yonex
+  name: Arcsaber 7 tour
+  flex: Medium
+  balance: Neutral
+  weightCategory: Four
+- brand: Yonex
+  name: Astrox 01 Clear
+  flex: Flexible
+  balance: HeadHeavy
+  weightCategory: Four
+- brand: Yonex
+  name: Astrox 01 Feel
+  flex: Flexible
+  balance: HeadHeavy
+  weightCategory: Four
+- brand: Yonex
+  name: Astrox 02 clear
+  flex: Flexible
+  balance: HeadHeavy
+  weightCategory: Four
+- brand: Yonex
+  name: Astrox 100 zz kurenai (Three-G4)
+  flex: Stiff
+  balance: HeadHeavy
+  weightCategory: Three
+- brand: Yonex
+  name: Astrox 100 ZZ Kurenai (Four-G5)
+  flex: Stiff
+  balance: HeadHeavy
+  weightCategory: Four
+- brand: Yonex
+  name: Astrox 22 lt
+  flex: Medium
+  balance: HeadHeavy
+  weightCategory: Eight
+- brand: Yonex
+  name: Astrox 3 dg
+  flex: Flexible
+  balance: HeadHeavy
+  weightCategory: Four
+- brand: Yonex
+  name: Astrox 77 play (Four-G5)
+  flex: Flexible
+  balance: HeadHeavy
+  weightCategory: Four
+- brand: Yonex
+  name: Astrox 77 pro (Three-G4)
+  flex: Medium
+  balance: HeadHeavy
+  weightCategory: Three
+- brand: Yonex
+  name: Astrox 77 pro (Four-G5)
+  flex: Medium
+  balance: HeadHeavy
+  weightCategory: Four
+- brand: Yonex
+  name: Astrox 77 tour (Four-G5)
+  flex: Medium
+  balance: HeadHeavy
+  weightCategory: Four
+- brand: Yonex
+  name: Astrox 88d pro
+  flex: Stiff
+  balance: HeadHeavy
+  weightCategory: Three
+- brand: Yonex
+  name: Astrox 88d tour (Four-G5)
+  flex: Stiff
+  balance: HeadHeavy
+  weightCategory: Four
+- brand: Yonex
+  name: Astrox 88s pro
+  flex: Stiff
+  balance: HeadHeavy
+  weightCategory: Three
+- brand: Yonex
+  name: Astrox 88s tour
+  flex: Stiff
+  balance: HeadHeavy
+  weightCategory: Four
+- brand: Yonex
+  name: Astrox 99 play
+  flex: Medium
+  balance: HeadHeavy
+  weightCategory: Four
+- brand: Yonex
+  name: Astrox 99 pro (Three-G4)
+  flex: Stiff
+  balance: HeadHeavy
+  weightCategory: Three
+- brand: Yonex
+  name: Astrox 99 pro (Four-G6)
+  flex: Stiff
+  balance: HeadHeavy
+  weightCategory: Four
+- brand: Yonex
+  name: Astrox 99 tour (Four-G5)
+  flex: Stiff
+  balance: HeadHeavy
+  weightCategory: Four
+- brand: Yonex
+  name: Astrox nextage
+  flex: Medium
+  balance: HeadHeavy
+  weightCategory: Four
+- brand: Victor
+  name: Auraspeed 100X H
+  flex: Stiff
+  balance: HeadLight
+  weightCategory: Three
+- brand: Victor
+  name: Auraspeed 100X Ultra G (Three-G5)
+  flex: Stiff
+  balance: Neutral
+  weightCategory: Three
+- brand: Victor
+  name: Auraspeed 3200 C
+  flex: Flexible
+  balance: HeadLight
+  weightCategory: Four
+- brand: Victor
+  name: Auraspeed 33H C
+  flex: Medium
+  balance: HeadLight
+  weightCategory: Three
+- brand: Victor
+  name: Auraspeed 9 R
+  flex: Flexible
+  balance: Neutral
+  weightCategory: Four
+- brand: Victor
+  name: Auraspeed 90K II B
+  flex: Stiff
+  balance: Neutral
+  weightCategory: Four
+- brand: Victor
+  name: Auraspeed 90K Metallic R
+  flex: Stiff
+  balance: Neutral
+  weightCategory: Four
+- brand: Victor
+  name: Auraspeed 98K Pro CR
+  flex: Stiff
+  balance: Neutral
+  weightCategory: Three
+- brand: Victor
+  name: Auraspeed ETA C
+  flex: Medium
+  balance: Neutral
+  weightCategory: Three
+- brand: Victor
+  name: Auraspeed Hang C
+  flex: Stiff
+  balance: HeadHeavy
+  weightCategory: Three
+- brand: Victor
+  name: Auraspeed HS plus C
+  flex: Stiff
+  balance: Neutral
+  weightCategory: Four
+- brand: Victor
+  name: Auraspeed JU C
+  flex: Medium
+  balance: Neutral
+  weightCategory: Four
+- brand: Victor
+  name: Auraspeed Light Fighter 40 D
+  flex: Stiff
+  balance: HeadHeavy
+  weightCategory: Six
+- brand: Victor
+  name: Auraspeed Light Fighter 80 A
+  flex: Medium
+  balance: HeadHeavy
+  weightCategory: Six
+- brand: Victor
+  name: Auraspeed LJH S
+  flex: Stiff
+  balance: HeadHeavy
+  weightCategory: Four
+- brand: Li-ning
+  name: AXForce 100  (Three-G5)
+  flex: Stiff
+  balance: HeadHeavy
+  weightCategory: Three
+- brand: Li-ning
+  name: AXForce 100  (Four-G5)
+  flex: Stiff
+  balance: HeadHeavy
+  weightCategory: Four
+- brand: Li-ning
+  name: AXForce 20
+  flex: Flexible
+  balance: HeadHeavy
+  weightCategory: Four
+- brand: Li-ning
+  name: AXForce 50 (Four-G5)
+  flex: Flexible
+  balance: HeadHeavy
+  weightCategory: Four
+- brand: Li-ning
+  name: AXForce 50 (Five-G6)
+  flex: Flexible
+  balance: HeadHeavy
+  weightCategory: Five
+- brand: Li-ning
+  name: AXForce 60
+  flex: Flexible
+  balance: HeadHeavy
+  weightCategory: Four
+- brand: Li-ning
+  name: AXForce 70
+  flex: Medium
+  balance: HeadHeavy
+  weightCategory: Four
+- brand: Li-ning
+  name: AXForce 80
+  flex: Medium
+  balance: HeadHeavy
+  weightCategory: Four
+- brand: Li-ning
+  name: AXForce 90 max dragon (Three-G5)
+  flex: Stiff
+  balance: HeadHeavy
+  weightCategory: Three
+- brand: Li-ning
+  name: AXForce 90 max dragon (Four-G5)
+  flex: Stiff
+  balance: HeadHeavy
+  weightCategory: Four
+- brand: Li-ning
+  name: AXForce 90 max tiger (Three-G5)
+  flex: Medium
+  balance: HeadHeavy
+  weightCategory: Three
+- brand: Li-ning
+  name: AXForce 90 max tiger (Four-G5)
+  flex: Medium
+  balance: HeadHeavy
+  weightCategory: Four
+- brand: Li-ning
+  name: AXForce bigbang
+  flex: Flexible
+  balance: HeadHeavy
+  weightCategory: Six
+- brand: Li-ning
+  name: AXForce cannon (Five-G6)
+  flex: Flexible
+  balance: HeadHeavy
+  weightCategory: Five
+- brand: Li-ning
+  name: AXForce cannon
+  flex: Medium
+  balance: HeadHeavy
+  weightCategory: Four
+- brand: Li-ning
+  name: BladeX 200 (Three-G5)
+  flex: Medium
+  balance: HeadHeavy
+  weightCategory: Three
+- brand: Li-ning
+  name: BladeX 500 (Three-G5)
+  flex: Stiff
+  balance: HeadHeavy
+  weightCategory: Three
+- brand: Li-ning
+  name: BladeX 500 (Four-G6)
+  flex: Stiff
+  balance: HeadHeavy
+  weightCategory: Four
+- brand: Li-ning
+  name: BladeX 600
+  flex: Medium
+  balance: HeadHeavy
+  weightCategory: Four
+- brand: Li-ning
+  name: BladeX 700 (Three-G5)
+  flex: Stiff
+  balance: HeadHeavy
+  weightCategory: Three
+- brand: Li-ning
+  name: BladeX 800 (Three-G5)
+  flex: Stiff
+  balance: HeadHeavy
+  weightCategory: Three
+- brand: Li-ning
+  name: BladeX 800 (Four-G5)
+  flex: Stiff
+  balance: HeadHeavy
+  weightCategory: Four
+- brand: Li-ning
+  name: BladeX 900 max moon
+  flex: Stiff
+  balance: HeadHeavy
+  weightCategory: Four
+- brand: Li-ning
+  name: BladeX 900 max sun
+  flex: Stiff
+  balance: HeadHeavy
+  weightCategory: Four
+- brand: Li-ning
+  name: BladeX sonar
+  flex: Medium
+  balance: Neutral
+  weightCategory: Four
+- brand: Li-ning
+  name: BladeX spiral  (Four-G5)
+  flex: Flexible
+  balance: Neutral
+  weightCategory: Four
+- brand: Li-ning
+  name: BladeX spiral  (Five-G5)
+  flex: Flexible
+  balance: Neutral
+  weightCategory: Five
+- brand: Victor
+  name: Brave Sword 12 SE B
+  flex: Medium
+  balance: Neutral
+  weightCategory: Three
+- brand: Victor
+  name: Challenger 9500 CD
+  flex: Medium
+  balance: HeadHeavy
+  weightCategory: Three
+- brand: Prokennex
+  name: Destiny Control
+  flex: Medium
+  balance: HeadLight
+  weightCategory: Four
+- brand: Prokennex
+  name: Destiny Speed
+  flex: Medium
+  balance: HeadLight
+  weightCategory: Four
+- brand: Victor
+  name: DriveX 10 Metallic B (Three-G5)
+  flex: Stiff
+  balance: Neutral
+  weightCategory: Three
+- brand: Victor
+  name: DriveX 10 Metallic B (Four-G5)
+  flex: Stiff
+  balance: Neutral
+  weightCategory: Four
+- brand: Victor
+  name: DriveX 12 O
+  flex: Stiff
+  balance: Neutral
+  weightCategory: Four
+- brand: Victor
+  name: DriveX 1L A
+  flex: Flexible
+  balance: Neutral
+  weightCategory: Five
+- brand: Victor
+  name: DriveX 9X B
+  flex: Stiff
+  balance: Neutral
+  weightCategory: Four
+- brand: Victor
+  name: DriveX Light Fighter 60 E
+  flex: Medium
+  balance: HeadHeavy
+  weightCategory: Six
+- brand: Victor
+  name: DriveX Metallic C
+  flex: Stiff
+  balance: Neutral
+  weightCategory: Four
+- brand: Forza
+  name: Dynamic 6 junior
+  flex: Stiff
+  balance: HeadHeavy
+  weightCategory: One
+- brand: Babolat
+  name: Explorer
+  flex: Medium
+  balance: Neutral
+  weightCategory: One
+- brand: Li-ning
+  name: Halbertec 8000
+  flex: Stiff
+  balance: HeadHeavy
+  weightCategory: Four
+- brand: Kawasaki
+  name: Happy kids 605 x2
+  flex: Medium
+  balance: Neutral
+  weightCategory: Two
+- brand: Kawasaki
+  name: Happy kids 650II
+  flex: Medium
+  balance: Neutral
+  weightCategory: Five
+- brand: Kawasaki
+  name: High Tension G30
+  flex: Medium
+  balance: HeadHeavy
+  weightCategory: Four
+- brand: Kawasaki
+  name: High Tension G30
+  flex: Medium
+  balance: HeadHeavy
+  weightCategory: Four
+- brand: Forza
+  name: Ht power 30 v2
+  flex: Flexible
+  balance: Neutral
+  weightCategory: Four
+- brand: Forza
+  name: HT Power 32 V2
+  flex: Medium
+  balance: Neutral
+  weightCategory: Four
+- brand: Forza
+  name: Ht precision 72f v2
+  flex: Flexible
+  balance: Neutral
+  weightCategory: Four
+- brand: Yonex
+  name: Isometric training-0  (G4)
+  flex: Medium
+  balance: Neutral
+  weightCategory: One
+- brand: Yonex
+  name: Isometric training-1  (G4)
+  flex: Medium
+  balance: Neutral
+  weightCategory: One
+- brand: Babolat
+  name: Jetstream 74
+  flex: Medium
+  balance: HeadLight
+  weightCategory: Six
+- brand: Babolat
+  name: Jetstream 78
+  flex: Medium
+  balance: Neutral
+  weightCategory: Five
+- brand: Babolat
+  name: Jetstream 80
+  flex: Flexible
+  balance: HeadLight
+  weightCategory: Four
+- brand: Babolat
+  name: Jetstream 83
+  flex: Medium
+  balance: Neutral
+  weightCategory: Four
+- brand: Kawasaki
+  name: King K6
+  flex: Medium
+  balance: HeadHeavy
+  weightCategory: Four
+- brand: Kawasaki
+  name: King K6
+  flex: Medium
+  balance: HeadHeavy
+  weightCategory: Four
+- brand: Kawasaki
+  name: King K8 II
+  flex: Stiff
+  balance: HeadHeavy
+  weightCategory: Four
+- brand: Kawasaki
+  name: King K8 II
+  flex: Stiff
+  balance: HeadHeavy
+  weightCategory: Four
+- brand: Kawasaki
+  name: King K9
+  flex: Medium
+  balance: HeadHeavy
+  weightCategory: Four
+- brand: Li-ning
+  name: Lightning 2000
+  flex: Flexible
+  balance: Neutral
+  weightCategory: Four
+- brand: Li-ning
+  name: Lightning 3000
+  flex: Flexible
+  balance: HeadLight
+  weightCategory: Three
+- brand: Li-ning
+  name: Lightning 3000
+  flex: Flexible
+  balance: HeadLight
+  weightCategory: Three
+- brand: Kawasaki
+  name: Master 900 (Four-G5)
+  flex: Stiff
+  balance: HeadHeavy
+  weightCategory: Four
+- brand: Yonex
+  name: Nanoflare 001 ability
+  flex: Flexible
+  balance: HeadLight
+  weightCategory: Five
+- brand: Yonex
+  name: Nanoflare 001 Ability
+  flex: Flexible
+  balance: HeadLight
+  weightCategory: Five
+- brand: Yonex
+  name: Nanoflare 001 Clear
+  flex: Flexible
+  balance: HeadLight
+  weightCategory: Five
+- brand: Yonex
+  name: Nanoflare 002 ability
+  flex: Flexible
+  balance: HeadLight
+  weightCategory: Four
+- brand: Yonex
+  name: Nanoflare 1000 game
+  flex: Medium
+  balance: HeadLight
+  weightCategory: Four
+- brand: Yonex
+  name: Nanoflare 1000 play
+  flex: Medium
+  balance: HeadLight
+  weightCategory: Four
+- brand: Yonex
+  name: Nanoflare 1000 tour
+  flex: Stiff
+  balance: HeadLight
+  weightCategory: Four
+- brand: Yonex
+  name: Nanoflare 1000 z
+  flex: Stiff
+  balance: HeadLight
+  weightCategory: Four
+- brand: Yonex
+  name: Nanoflare 700 Game
+  flex: Medium
+  balance: HeadLight
+  weightCategory: Four
+- brand: Yonex
+  name: Nanoflare 700 Game
+  flex: Medium
+  balance: HeadLight
+  weightCategory: Four
+- brand: Yonex
+  name: Nanoflare 700 Pro
+  flex: Medium
+  balance: HeadLight
+  weightCategory: Four
+- brand: Yonex
+  name: Nanoflare 700 Tour
+  flex: Medium
+  balance: HeadLight
+  weightCategory: Four
+- brand: Yonex
+  name: Nanoflare 800 game
+  flex: Medium
+  balance: HeadLight
+  weightCategory: Four
+- brand: Yonex
+  name: Nanoflare 800 pro (Three-G4)
+  flex: Stiff
+  balance: HeadLight
+  weightCategory: Three
+- brand: Yonex
+  name: Nanoflare 800 pro (Four-G5)
+  flex: Stiff
+  balance: HeadLight
+  weightCategory: Four
+- brand: Yonex
+  name: Nanoflare 800 tour
+  flex: Stiff
+  balance: HeadLight
+  weightCategory: Four
+- brand: Yonex
+  name: Nanoflare e13
+  flex: Stiff
+  balance: HeadLight
+  weightCategory: Three
+- brand: Yonex
+  name: Nanoflare e13
+  flex: Stiff
+  balance: HeadLight
+  weightCategory: Three
+- brand: Yonex
+  name: Nanoflare Nextage
+  flex: Medium
+  balance: HeadLight
+  weightCategory: Four
+- brand: Yonex
+  name: Nanoflare Nextage
+  flex: Medium
+  balance: HeadLight
+  weightCategory: Four
+- brand: Kawasaki
+  name: Passion P22
+  flex: Medium
+  balance: HeadHeavy
+  weightCategory: Four
+- brand: Kawasaki
+  name: Passion P25
+  flex: Flexible
+  balance: HeadHeavy
+  weightCategory: Four
+- brand: Kawasaki
+  name: Passion P35
+  flex: Medium
+  balance: HeadHeavy
+  weightCategory: Four
+- brand: Kawasaki
+  name: Passion P38
+  flex: Medium
+  balance: HeadHeavy
+  weightCategory: Four
+- brand: Kawasaki
+  name: Passion P38
+  flex: Medium
+  balance: HeadHeavy
+  weightCategory: Four
+- brand: Kawasaki
+  name: Passion P5 II
+  flex: Medium
+  balance: HeadLight
+  weightCategory: Four
+- brand: Kawasaki
+  name: Passion P5 II
+  flex: Medium
+  balance: HeadLight
+  weightCategory: Four
+- brand: Badmania
+  name: PMP Control EVO II
+  flex: Medium
+  balance: Neutral
+  weightCategory: Three
+- brand: Prokennex
+  name: Power Pro 704
+  flex: Flexible
+  balance: HeadLight
+  weightCategory: Four
+- brand: Forza
+  name: Precision x1
+  flex: Flexible
+  balance: HeadLight
+  weightCategory: Three
+- brand: Forza
+  name: Precision x3
+  flex: Medium
+  balance: Neutral
+  weightCategory: Four
+- brand: Babolat
+  name: Prime
+  flex: Medium
+  balance: Neutral
+  weightCategory: Three
+- brand: Babolat
+  name: Prime
+  flex: Medium
+  balance: Neutral
+  weightCategory: Three
+- brand: Babolat
+  name: Satelite blast
+  flex: Stiff
+  balance: HeadHeavy
+  weightCategory: Three
+- brand: Babolat
+  name: Satelite gravity 74
+  flex: Medium
+  balance: HeadLight
+  weightCategory: Six
+- brand: Babolat
+  name: Satelite lite
+  flex: Medium
+  balance: HeadLight
+  weightCategory: Four
+- brand: Babolat
+  name: Satelite master
+  flex: Flexible
+  balance: Neutral
+  weightCategory: Three
+- brand: Babolat
+  name: Satelite origin
+  flex: Flexible
+  balance: HeadLight
+  weightCategory: Four
+- brand: Babolat
+  name: Satelite origin lite
+  flex: Flexible
+  balance: HeadLight
+  weightCategory: Four
+- brand: Babolat
+  name: Satelite origin power
+  flex: Medium
+  balance: HeadHeavy
+  weightCategory: Three
+- brand: Babolat
+  name: Satelite rise
+  flex: Medium
+  balance: Neutral
+  weightCategory: Four
+- brand: Babolat
+  name: Satelite spire
+  flex: Medium
+  balance: Neutral
+  weightCategory: Three
+- brand: Babolat
+  name: Speedlighter
+  flex: Medium
+  balance: HeadHeavy
+  weightCategory: Three
+- brand: Kawasaki
+  name: Super Light L6
+  flex: Flexible
+  balance: HeadHeavy
+  weightCategory: Six
+- brand: Li-ning
+  name: Tectonic 1 (Three-G5)
+  flex: Flexible
+  balance: HeadHeavy
+  weightCategory: Three
+- brand: Li-ning
+  name: Tectonic 1 (Four-G5)
+  flex: Flexible
+  balance: HeadHeavy
+  weightCategory: Four
+- brand: Li-ning
+  name: Tectonic 6
+  flex: Medium
+  balance: HeadHeavy
+  weightCategory: Four
+- brand: Li-ning
+  name: Tectonic 7
+  flex: Medium
+  balance: HeadHeavy
+  weightCategory: Four
+- brand: Li-ning
+  name: Tectonic 7c
+  flex: Medium
+  balance: HeadHeavy
+  weightCategory: Three
+- brand: Li-ning
+  name: Tectonic 7d
+  flex: Stiff
+  balance: HeadHeavy
+  weightCategory: Four
+- brand: Li-ning
+  name: Tectonic 7i
+  flex: Flexible
+  balance: HeadHeavy
+  weightCategory: Five
+- brand: Li-ning
+  name: Tectonic 9 (Three-G5)
+  flex: Stiff
+  balance: HeadHeavy
+  weightCategory: Three
+- brand: Li-ning
+  name: Tectonic 9 (Four-G5)
+  flex: Stiff
+  balance: HeadHeavy
+  weightCategory: Four
+- brand: Victor
+  name: Thruster F C (Three-G5)
+  flex: Stiff
+  balance: Neutral
+  weightCategory: Three
+- brand: Victor
+  name: Thruster F C (Four-G5)
+  flex: Stiff
+  balance: Neutral
+  weightCategory: Four
+- brand: Victor
+  name: Thruster F HS Hendra Setiawan
+  flex: Stiff
+  balance: Neutral
+  weightCategory: Three
+- brand: Victor
+  name: Thruster F Ultra C (Three-G5)
+  flex: Stiff
+  balance: HeadHeavy
+  weightCategory: Three
+- brand: Victor
+  name: Thruster F Ultra C (Four-G5)
+  flex: Stiff
+  balance: HeadHeavy
+  weightCategory: Four
+- brand: Victor
+  name: Thruster Hammer Light Extra A
+  flex: Flexible
+  balance: HeadHeavy
+  weightCategory: Six
+- brand: Victor
+  name: Thruster Hammer Light Extra H
+  flex: Flexible
+  balance: HeadHeavy
+  weightCategory: Six
+- brand: Victor
+  name: Thruster K 11 C
+  flex: Flexible
+  balance: HeadHeavy
+  weightCategory: Four
+- brand: Victor
+  name: Thruster K 12 M
+  flex: Flexible
+  balance: HeadHeavy
+  weightCategory: Four
+- brand: Victor
+  name: Thruster K 1H H
+  flex: Medium
+  balance: Neutral
+  weightCategory: Four
+- brand: Victor
+  name: Thruster Light Fighter 30 F
+  flex: Flexible
+  balance: HeadHeavy
+  weightCategory: Six
+- brand: Victor
+  name: Thruster M134 J
+  flex: Medium
+  balance: HeadHeavy
+  weightCategory: Four
+- brand: Victor
+  name: Thruster Merak B
+  flex: Stiff
+  balance: HeadHeavy
+  weightCategory: Four
+- brand: Victor
+  name: Thruster Ryuga II Pro B (Three-G5)
+  flex: Stiff
+  balance: HeadHeavy
+  weightCategory: Three
+- brand: Victor
+  name: Thruster Ryuga II Pro B (Four-G6)
+  flex: Stiff
+  balance: HeadHeavy
+  weightCategory: Four
+- brand: Victor
+  name: Thruster Ryuga Metallic C (Three-G5)
+  flex: Stiff
+  balance: HeadHeavy
+  weightCategory: Three
+- brand: Victor
+  name: Thruster Ryuga Metallic C (Four-G5)
+  flex: Stiff
+  balance: HeadHeavy
+  weightCategory: Four
+- brand: Victor
+  name: Thruster Ryuga TD C
+  flex: Stiff
+  balance: HeadHeavy
+  weightCategory: Four
+- brand: Victor
+  name: Thruster Ryuga TD D
+  flex: Stiff
+  balance: HeadHeavy
+  weightCategory: Four
+- brand: Victor
+  name: Thruster Tai Tzu Ying Ultima A
+  flex: Stiff
+  balance: HeadHeavy
+  weightCategory: Four
+- brand: Kawasaki
+  name: Up-0160 x2
+  flex: Stiff
+  balance: HeadHeavy
+  weightCategory: One
+- brand: Kawasaki
+  name: Up-0182 x2
+  flex: Stiff
+  balance: HeadHeavy
+  weightCategory: One
+- brand: Victor
+  name: Wavetec magan 7
+  flex: Medium
+  balance: HeadLight
+  weightCategory: Three
+- brand: Li-ning
+  name: Windstorm 72
+  flex: Flexible
+  balance: HeadHeavy
+  weightCategory: Six
+- brand: Li-ning
+  name: Windstorm 72
+  flex: Flexible
+  balance: HeadHeavy
+  weightCategory: Six
+- brand: Li-ning
+  name: Windstorm 72 s
+  flex: Flexible
+  balance: HeadHeavy
+  weightCategory: Six
+- brand: Li-ning
+  name: Windstorm 74
+  flex: Flexible
+  balance: HeadHeavy
+  weightCategory: Six
+- brand: Victor
+  name: Wrist Enhancer 140 M
+  flex: Stiff
+  balance: HeadHeavy
+  weightCategory: One
+- brand: Babolat
+  name: X-feel fury
+  flex: Stiff
+  balance: HeadHeavy
+  weightCategory: Three
+- brand: Babolat
+  name: X-feel origin
+  flex: Medium
+  balance: Neutral
+  weightCategory: Three
+- brand: Babolat
+  name: X-feel rise
+  flex: Flexible
+  balance: Neutral
+  weightCategory: Three
+- brand: Babolat
+  name: X-feel spark
+  flex: Medium
+  balance: HeadHeavy
+  weightCategory: Three

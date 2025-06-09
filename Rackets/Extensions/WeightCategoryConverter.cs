@@ -16,11 +16,14 @@ public class WeightCategoryConverter : JsonConverter<WeightCategory>
     {
         var label = value switch
         {
+            WeightCategory.One => "1U",
             WeightCategory.Two => "2U",
             WeightCategory.Three => "3U",
             WeightCategory.Four => "4U",
             WeightCategory.Five => "5U",
             WeightCategory.Six => "6U",
+            WeightCategory.Eight => "8U",
+            _ => throw new ArgumentOutOfRangeException(nameof(value), value, null)
         };
         writer.WriteStringValue(label);
     }
